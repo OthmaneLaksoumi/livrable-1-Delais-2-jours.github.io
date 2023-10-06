@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Description" content="Ecrir ici la description" /> <!-- This meta for description -->
+    <title>Menu</title>
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <style></style>
+    <script></script>
+</head>
+
+<body>
+    <header id="site-header" class="fixed-top">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg stroke">
+                <h1>
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        Bistros <i class="fa fa-cutlery ml-2" aria-hidden="true"></i></a>
+                </h1>
+                <!-- if logo is image enable this   
+<a class="navbar-brand" href="#index.html">
+    <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+</a> -->
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact Us</a>
+                    </li> -->
+                        <li>
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <!-- search button -->
+                        <div class="search-right">
+                            <form action="#search" method="GET" class="search-box position-relative">
+                                <div class="input-search">
+                                    <input type="search" placeholder="Enter Keyword" name="search" required="required"
+                                        autofocus="" class="search-popup">
+                                </div>
+                                <button type="submit" class="btn search-btn"><i class="fa fa-search"
+                                        aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+                        <!-- //search button -->
+                    </ul>
+                </div>
+                <!-- toggle switch for light and dark theme -->
+                <div class="cont-ser-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section class="w3l-portfolio-8 py-5" style="background-color: black;">
+        <div class="portfolio-main py-md-5 py-4">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-8">
+                        <div class="section-heading mb-sm-5 mb-4">
+                            <h3 class="title-style mb-2">Our Specials</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row galler-top">
+                    <div class="col-md-4 col-sm-6 protfolio-item hover14">
+                        <a href="menu.html" data-lightbox="example-set" data-title="Branding Design">
+                            <figure>
+                                <a href="#noodles" class="mb-5 img-title"><img src="assets/images/g1.jpg" alt="product"
+                                        class="img-fluid"></a>
+
+                                <div class="p-4">
+                                    <p>Bistros</p>
+                                    <a href="#noodles" class="mb-5 img-title">Noodles</a>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 protfolio-item hover14 mt-sm-0 mt-4">
+                        <a href="menu.html" data-lightbox="example-set" data-title="Gradient Website Development">
+                            <figure>
+                                <a href="#cakes" class="mb-5 img-title">
+                                    <img src="assets/images/g2.jpg" alt="product" class="img-fluid">
+                                </a>
+
+                                <div class="p-4">
+                                    <p>Bistros</p>
+                                    <a href="#cakes" class="mb-5 img-title">Cakes</a>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 protfolio-item hover14 mt-md-0 mt-4">
+                        <a href="menu.html" data-lightbox="example-set" data-title="Design and Development">
+                            <figure>
+                                <a href="#pizzas" class="mb-5 img-title">
+                                    <img src="assets/images/g3.jpg" alt="product" class="img-fluid">
+                                </a>
+                                <div class="p-4">
+                                    <p>Bistros</p>
+                                    <a href="#pizzas" class="mb-5 img-title">Pizzas</a>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 protfolio-item hover14 mt-4">
+                        <a href="menu.html" data-lightbox="example-set" data-title="Magazine Content Writing">
+                            <figure>
+                                <a href="#drinks" class="mb-5 img-title">
+                                    <img src="assets/images/g4.jpg" alt="product" class="img-fluid">
+                                </a>
+                                <div class="p-4">
+                                    <p>Bistros</p>
+                                    <a href="#drinks" class="mb-5 img-title">Drinks</a>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 protfolio-item hover14 mt-4">
+                        <a href="menu.html" data-lightbox="example-set" data-title="Magazine Content Writing">
+                            <figure>
+                                <a href="#hamburgers" class="mb-5 img-title">
+                                    <img src="assets/images/g5.jpg" alt="product" class="img-fluid">
+                                </a>
+                                <div class="p-4">
+                                    <p>Bistros</p>
+                                    <a href="#hamburgers" class="mb-5 img-title">Hamburgers</a>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 protfolio-item hover14 mt-4">
+                        <a href="menu.html" data-lightbox="example-set" data-title="Magazine Content Writing">
+                            <figure>
+                                <a href="#meals" class="mb-5 img-title">
+                                    <img src="assets/images/g6.jpg" alt="product" class="img-fluid">
+                                </a>
+                                <div class="p-4">
+                                    <p>Bistros</p>
+                                    <a href="#meals" class="mb-5 img-title">Meals</a>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="text-center">
+                    <a href="menu.html" class="btn btn-style-white btn-style-primary mt-lg-5 mt-2">See Our Menu</a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="w3l-recipes py-5" id="noodles" style="background-color: white;">
+        <div class="container py-md-5 py-4">
+            <div class="row">
+                <div class="col-lg-6 recipe-left mb-md-0 mb-5">
+                    <div class="section-heading mb-sm-5 mb-4">
+                        <h3 class="title-style mb-2 text-white">Our Noodles</h3>
+                    </div>
+                    <div class="menu-sec mt-5 pt-md-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Pad Thai</h6>
+                            </div>
+                            <br><br>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$14.50</h6>
+                            </div>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A classic Thai stir-fried noodle dish with a perfect balance
+                                    of sweet, sour, and
+                                    savory flavors. It includes rice noodles, shrimp or chicken, tofu, peanuts, and bean
+                                    sprouts.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Chicken Ramen</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$17.00</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white"> A comforting Japanese noodle soup made with chicken broth,
+                                    ramen noodles, tender slices of chicken, soft-boiled eggs, and garnished with
+                                    scallions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Beef Lo Meinx</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$14.00</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white"> A Chinese-American dish featuring stir-fried wheat noodles
+                                    with thinly sliced beef, mushrooms, broccoli, and a savory brown sauce.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Spicy Szechuan Noodles</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$12.50</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white">Spicy and flavorful Szechuan-style noodles made with ground
+                                    pork, chili oil, garlic, and Szechuan peppercorns for a numbing sensation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Pasta Aglio e Olio with Shrimp</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$19.50</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white">An Italian-inspired dish with spaghetti tossed in olive oil,
+                                    garlic, red pepper flakes, and parsley, topped with sautéed shrimp.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <a class="btn btn-style-white btn-style-border mt-5" href="about.html">View More</a> -->
+                </div>
+                <div class="col-lg-6 recipe-right pl-5">
+                    <img src="assets/images/Noodles/noodles-4851996_1920.jpg"
+                        style="margin-top: 50px; border: 2px solid #000; border-radius: 5%;" alt=""
+                        class="img-fluid img-responsive" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="w3l-recipes py-5" id="cakes" style="background-color:rgb(255, 255, 255);">
+        <div class="container py-md-5 py-4">
+            <div class="row">
+                <div class="col-lg-6 recipe-left mb-md-0 mb-5">
+                    <div class="section-heading mb-sm-5 mb-4">
+                        <h3 class="title-style mb-2 text-white">Our Cakes</h3>
+                    </div>
+                    <div class="menu-sec mt-5 pt-md-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Chocolate Fudge Cake</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$27.50</h6><br>
+                            </div>
+                            <div>
+                                <p class="lead text-white">
+                                    A rich and decadent chocolate cake with layers of velvety chocolate ganache. It's a
+                                    chocolate lover's dream come true.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Carrot Cake with Cream Cheese Frosting</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$27.50</h6>
+                            </div>
+                        </div><br>
+                        <p class="lead text-white">
+                            Moist and spiced carrot cake layered with a creamy, tangy cream cheese frosting. It's a
+                            delightful balance of sweet and slightly savory flavors.
+                        </p>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Classic Vanilla Sponge Cake</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$25.00</h6>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="lead text-white">
+                                A light and fluffy vanilla sponge cake, perfect for any occasion. It's often adorned
+                                with a layer of fruit or flavored buttercream.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Red Velvet Cake</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$30.00</h6>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="lead text-white">
+                                A striking red-hued cake with a subtle cocoa flavor, typically layered with cream cheese
+                                frosting. It's known for its eye-catching appearance and delicious taste.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Lemon Blueberry Pound Cake</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$34.00</h6>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="lead text-white">
+                                A buttery pound cake infused with fresh lemon zest and dotted with juicy blueberries.
+                                The tangy-sweet combination is irresistible.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <a class="btn btn-style-white btn-style-border mt-5" href="about.html">View More</a> -->
+                </div>
+                <div class="col-lg-6 recipe-right pl-5">
+                    <img src="assets/images/Cakes/muffin-3510308_1920.jpg"
+                        style="margin-top: 50px; border: 2px solid rgb(0, 0, 0) ; border-radius: 5%;" alt=""
+                        class="img-fluid img-responsive" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="w3l-recipes py-5" id="pizzas" style="background-color: #ffffff;">
+        <div class="container py-md-5 py-4">
+            <div class="row">
+                <div class="col-lg-6 recipe-left mb-md-0 mb-5">
+                    <div class="section-heading mb-sm-5 mb-4">
+                        <h3 class="title-style mb-2 text-white">Our Pizzas</h3>
+                    </div>
+                    <div class="menu-sec mt-5 pt-md-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Margherita Pizza</h6>
+                            </div>
+                            <br><br>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$12.50</h6>
+                            </div>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A classic Italian pizza featuring a thin crust topped with
+                                    tomato sauce, fresh mozzarella cheese, fresh basil leaves, and a drizzle of olive
+                                    oil.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Pepperoni Pizza</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$17.00</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A beloved favorite, this pizza is loaded with tomato sauce,
+                                    generous slices of spicy pepperoni, and melted mozzarella cheese, resulting in a
+                                    savory and slightly spicy treat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Hawaiian Pizza</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$15.00</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A sweet and savory combination of tomato sauce, ham,
+                                    pineapple chunks, and mozzarella cheese. The pineapple adds a tropical twist to this
+                                    classic pie.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Vegetarian Supreme Pizza</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$15.50</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white">acked with colorful and flavorful toppings, this pizza
+                                    includes tomato sauce, bell peppers, mushrooms, black olives, red onions, spinach,
+                                    and mozzarella cheese, making it a delightful choice for vegetarians.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>BBQ Chicken Pizza</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$17.50</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A barbecue sauce base topped with grilled chicken pieces, red
+                                    onions, cilantro, and a blend of mozzarella and cheddar cheese. It offers a tangy
+                                    and smoky flavor profile.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <a class="btn btn-style-white btn-style-border mt-5" href="about.html">View More</a> -->
+                </div>
+                <div class="col-lg-6 recipe-right pl-5">
+                    <img src="assets/images/Pizza/pizza-2589575_1280.jpg"
+                        style="margin-top: 50px; border: 2px solid #000; border-radius: 5%;" alt=""
+                        class="img-fluid img-responsive" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="w3l-recipes py-5" id="drinks" style="background-color: rgb(255, 255, 255);">
+        <div class="container py-md-5 py-4">
+            <div class="row">
+                <div class="col-lg-6 recipe-left mb-md-0 mb-5">
+                    <div class="section-heading mb-sm-5 mb-4">
+                        <h3 class="title-style mb-2 text-white">Our Drinks</h3>
+                    </div>
+                    <div class="menu-sec mt-5 pt-md-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Mango Lassi</h6>
+                            </div>
+                            <br><br>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$3.00</h6>
+                            </div>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A creamy and refreshing Indian drink made with ripe mangoes,
+                                    yogurt, sugar, and a hint of cardamom. It's the perfect balance of sweet and tangy
+                                    flavors.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Classic Mojito</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$8.00</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A classic Cuban cocktail featuring white rum, fresh lime
+                                    juice, mint leaves, sugar, and soda water. It's a zesty and minty refresher.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Iced Matcha Latte</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$5.00</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A trendy and energizing drink made with high-quality matcha
+                                    green tea powder, milk, and a touch of sweetener. It offers a vibrant green color
+                                    and earthy taste.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Watermelon Cucumber Cooler</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$5.50</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A hydrating and cooling drink made by blending fresh
+                                    watermelon, cucumber, lime juice, and a splash of sparkling water. It's the ultimate
+                                    summer thirst-quencher.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Espresso Martini</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$10.00</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white"> A sophisticated cocktail that combines freshly brewed
+                                    espresso, vodka, coffee liqueur (like Kahlúa), and a touch of simple syrup. It's a
+                                    caffeinated delight with a kick.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <a class="btn btn-style-white btn-style-border mt-5" href="about.html">View More</a> -->
+                </div>
+                <div class="col-lg-6 recipe-right pl-5">
+                    <img src="assets/images/g4.jpg" style="margin-top: 50px; border: 2px solid #000; border-radius: 5%;"
+                        alt="" class="img-fluid img-responsive" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="w3l-recipes py-5" id="hamburgers" style="background-color: #fff;">
+        <div class="container py-md-5 py-4">
+            <div class="row">
+                <div class="col-lg-6 recipe-left mb-md-0 mb-5">
+                    <div class="section-heading mb-sm-5 mb-4">
+                        <h3 class="title-style mb-2 text-white">Our Hamburgers</h3>
+                    </div>
+                    <div class="menu-sec mt-5 pt-md-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Classic Cheeseburger</h6>
+                            </div>
+                            <br><br>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$9.00</h6>
+                            </div>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A timeless favorite featuring a juicy beef patty, American
+                                    cheese, lettuce, tomato, onions, pickles, and a dollop of ketchup and mustard, all
+                                    sandwiched between a toasted burger bun.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Bacon Mushroom Swiss Burger</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$14.00</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white"> A savory delight with a beef patty topped with crispy bacon
+                                    strips, sautéed mushrooms, melted Swiss cheese, lettuce, and a drizzle of creamy
+                                    ranch dressing on a toasted bun
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Veggie Burger</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$13.00</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A vegetarian-friendly option made with a plant-based patty,
+                                    lettuce, tomato, red onion, avocado slices, and a zesty chipotle mayo, served on a
+                                    whole-grain bun.</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Spicy BBQ Burger</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$15.50</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white"> A burger with a kick, featuring a seasoned beef patty,
+                                    pepper jack cheese, jalapeños, crispy onion rings, and a smoky barbecue sauce on a
+                                    toasted brioche bun.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Chicken Avocado Burger</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$10.00</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A lighter option featuring a grilled chicken breast, creamy
+                                    avocado slices, fresh spinach, red bell pepper, and a tangy cilantro-lime mayo on a
+                                    whole wheat bun.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <a class="btn btn-style-white btn-style-border mt-5" href="about.html">View More</a> -->
+                </div>
+                <div class="col-lg-6 recipe-right pl-5">
+                    <img src="assets/images/hamburger-1238246_1280.jpg"
+                        style="margin-top: 50px; border: 2px solid #000; border-radius: 5%;" alt=""
+                        class="img-fluid img-responsive" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="w3l-recipes py-5" id="meals" style="background-color: #fff;">
+        <div class="container py-md-5 py-4">
+            <div class="row">
+                <div class="col-lg-6 recipe-left mb-md-0 mb-5">
+                    <div class="section-heading mb-sm-5 mb-4">
+                        <h3 class="title-style mb-2 text-white">Our Meals</h3>
+                    </div>
+                    <div class="menu-sec mt-5 pt-md-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Chicken Alfredo Pasta</h6>
+                            </div>
+                            <br><br>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$15.00</h6>
+                            </div>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A creamy and indulgent Italian-inspired dish featuring tender
+                                    chicken breast strips, fettuccine pasta, and a rich Alfredo sauce made with butter,
+                                    cream, and Parmesan cheese.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Beef Stir-Fry with Vegetables</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$14.50</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A quick and flavorful Asian stir-fry made with thinly sliced
+                                    beef, colorful vegetables, and a savory soy-based sauce. Served over steamed rice,
+                                    it's a satisfying meal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Salmon with Lemon-Dill Sauce</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$20.00</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white"> A healthy and elegant seafood option featuring pan-seared
+                                    salmon fillets drizzled with a bright and zesty lemon-dill sauce. Served with
+                                    steamed asparagus and roasted potatoes.</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Vegetable Curry with Basmati Rice</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$14.50</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A vegetarian delight made with a medley of vegetables
+                                    simmered in a flavorful curry sauce made from spices, coconut milk, and tomatoes.
+                                    Served with aromatic basmati rice.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>Grilled Steak with Chimichurri Sauce</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>$25.00</h6>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <p class="lead text-white">A hearty and flavorful dish featuring perfectly grilled steak
+                                    (such as ribeye or sirloin) topped with a zesty chimichurri sauce made from parsley,
+                                    garlic, vinegar, and olive oil. Served with grilled vegetables.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <a class="btn btn-style-white btn-style-border mt-5" href="about.html">View More</a> -->
+                </div>
+                <div class="col-lg-6 recipe-right pl-5">
+                    <img src="assets/images/Meals/asparagus-2169305_1280.jpg"
+                        style="margin-top: 50px; border: 2px solid #Aee0f0; border-radius: 5%;" alt=""
+                        class="img-fluid img-responsive" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fa fa-level-up" aria-hidden="true"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- //move top -->
+
+    <!-- common jquery plugin -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
+
+    <!-- counter for stats -->
+    <script src="assets/js/counter.js"></script>
+    <!-- //counter for stats -->
+
+    <!-- theme switch js (light and dark)-->
+    <script src="assets/js/theme-change.js"></script>
+    <script>
+        function autoType(elementClass, typingSpeed) {
+            var thhis = $(elementClass);
+            thhis.css({
+                "position": "relative",
+                "display": "inline-block"
+            });
+            thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
+            thhis = thhis.find(".text-js");
+            var text = thhis.text().trim().split('');
+            var amntOfChars = text.length;
+            var newString = "";
+            thhis.text("|");
+            setTimeout(function () {
+                thhis.css("opacity", 1);
+                thhis.prev().removeAttr("style");
+                thhis.text("");
+                for (var i = 0; i < amntOfChars; i++) {
+                    (function (i, char) {
+                        setTimeout(function () {
+                            newString += char;
+                            thhis.text(newString);
+                        }, i * typingSpeed);
+                    })(i + 1, text[i]);
+                }
+            }, 1500);
+        }
+
+        $(document).ready(function () {
+            // Now to start autoTyping just call the autoType function with the 
+            // class of outer div
+            // The second paramter is the speed between each letter is typed.   
+            autoType(".type-js", 200);
+        });
+    </script>
+    <!-- //theme switch js (light and dark)-->
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!--bootstrap-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- //bootstrap-->
+    <!-- //Js scripts -->
+
+</body>
+
+
+
+</html>
